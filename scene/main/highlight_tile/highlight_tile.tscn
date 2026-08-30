@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c1sxopssfkpv2"]
+
+[ext_resource type="Script" uid="uid://bd7qfsmgqhcy0" path="res://scene/main/highlight_tile/highlight_tile.gd" id="1_rbq8d"]
+[ext_resource type="Texture2D" uid="uid://dc7r2k8w54jrk" path="res://assets/tiles/towerDefense_tile034.png" id="2_vgdnq"]
+
+[node name="HighlightTile" type="Node2D" unique_id=679807649]
+script = ExtResource("1_rbq8d")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=865695199]
+texture = ExtResource("2_vgdnq")
+centered = false

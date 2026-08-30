@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://q12i0v05y4hf"]
+
+[ext_resource type="Texture2D" uid="uid://dy5nw8xswb3fx" path="res://assets/tiles/towerDefense_tile249.png" id="1_by1og"]
+
+[node name="Tower" type="Node2D" unique_id=1982003275]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=663014882]
+texture = ExtResource("1_by1og")
+centered = false
